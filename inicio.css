@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    font-family: 'Open Sans';
+}
+.birdie{
+    color: #fff;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    font-size: 22;
+    text-shadow: 1px 0px 6px white;
+}
+header h1{
+    color:rgb(255, 132, 0);
+    background-color: white;
+    text-align: center;
+    padding: 10;
+    font-size: 50px;
+    text-shadow:1px 0px 6px yellow;
+}
+section{
+    background-color: beige;
+    border:solid 1px brown;
+    border-radius: 18px;
+    margin: 12px;
+    padding: 12px;
+}
+section ul{
+    list-style:none;
+    border:solid 2px rgb(0, 0, 0);
+    border-radius: 18px;
+    margin: 12px;
+    text-align: center;
+    padding: 12px;
+    
+
+}
+
+section ul li{
+    text-decoration: none;
+    border:solid 1px brown;
+    border-radius: 18px;
+    margin: 12px;
+    padding: 12px;
+}
+
+section h2{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.redes{
+    margin-top: 40;
+    margin-bottom: 40;
+    margin-left: 120;
+}
+
+section ul li:hover{
+    transform: scale(1.01);
+}
